@@ -30,7 +30,7 @@ namespace API_Assignment1.Controllers
         {
             Note dbNote = _noteRepository.PostNote(httpNote);
 
-            return Ok(dbNote);
+            return dbNote;
         }
 
         [HttpGet("remaining")]

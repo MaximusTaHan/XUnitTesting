@@ -67,5 +67,21 @@ namespace XUnitTests
             // Assert
             Assert.Equal(id, result.Id);
         }
+
+        [Fact]
+        public void PostNote_ShouldReturnNoteWithEmptyText_WhenInputTextIsEmpty()
+        {
+            // Arrange
+            string empty = "";
+            Note note = new() { Id = 1, IsDone = true, Text = "" };
+
+            _noteRepository.PostNote(note).Returns(note);
+
+            // Act
+            Note result = _sut.PostNote(note).Value;
+
+            // Assert
+            Assert.Equal(empty, result.Text);
+        }
     }
 }

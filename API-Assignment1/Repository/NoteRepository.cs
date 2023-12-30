@@ -77,13 +77,16 @@ namespace API_Assignment1.Repository
 
         public void ToggleAllCheckboxes()
         {
+            // Check if there is any unchecked ToDo
             var dbNote = _context.Notes.FirstOrDefault(n => n.IsDone == false);
 
+            // If there there are none, check all of them
             if (dbNote != null)
             {
                 foreach (Note note in _context.Notes)
                     note.IsDone = true;
             }
+            // Else uncheck all boxes
             else
             {
                 foreach (Note note in _context.Notes)
