@@ -9,7 +9,7 @@ Then go ahead and start the program.
 This will open up Swagger for endpoint testing.
 
 The Frontend is written entierly in Html, CSS and Javascript and will call the backend endpoints when opened in the browser.
-Open the Index.html to access the Frontend
+Open the Index.html manually from the project files to access the Frontend
 
 ## Mocking and test conventions
 
