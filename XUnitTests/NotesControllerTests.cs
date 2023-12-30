@@ -85,7 +85,7 @@ namespace XUnitTests
         }
 
         [Fact]
-        public void ReverseText_ShouldReverseText_WhenNoteIsPosted()
+        public void ReverseText_ShouldReverseText_WhenNoteHasText()
         {
             // Arrange
             string expected = "kliM";
