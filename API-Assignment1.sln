@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API-Assignment1", "API-Assignment1\API-Assignment1.csproj", "{FAB983FB-7A3A-4FF2-9AC6-DE706A9D9740}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTests", "XUnitTests\XUnitTests.csproj", "{73DF88D8-EE84-418C-A345-7A63B196019A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{FAB983FB-7A3A-4FF2-9AC6-DE706A9D9740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAB983FB-7A3A-4FF2-9AC6-DE706A9D9740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAB983FB-7A3A-4FF2-9AC6-DE706A9D9740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DF88D8-EE84-418C-A345-7A63B196019A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DF88D8-EE84-418C-A345-7A63B196019A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DF88D8-EE84-418C-A345-7A63B196019A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DF88D8-EE84-418C-A345-7A63B196019A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

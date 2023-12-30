@@ -1,29 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\max95\\source\\repos\\Backend\\API-Assignment1\\API-Assignment1\\API-Assignment1.csproj": {}
+    "C:\\Users\\maxha\\source\\repos\\XUnitTesting\\API-Assignment1\\API-Assignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\max95\\source\\repos\\Backend\\API-Assignment1\\API-Assignment1\\API-Assignment1.csproj": {
+    "C:\\Users\\maxha\\source\\repos\\XUnitTesting\\API-Assignment1\\API-Assignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\max95\\source\\repos\\Backend\\API-Assignment1\\API-Assignment1\\API-Assignment1.csproj",
+        "projectUniqueName": "C:\\Users\\maxha\\source\\repos\\XUnitTesting\\API-Assignment1\\API-Assignment1.csproj",
         "projectName": "API-Assignment1",
-        "projectPath": "C:\\Users\\max95\\source\\repos\\Backend\\API-Assignment1\\API-Assignment1\\API-Assignment1.csproj",
-        "packagesPath": "C:\\Users\\max95\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\max95\\source\\repos\\Backend\\API-Assignment1\\API-Assignment1\\obj\\",
+        "projectPath": "C:\\Users\\maxha\\source\\repos\\XUnitTesting\\API-Assignment1\\API-Assignment1.csproj",
+        "packagesPath": "C:\\Users\\maxha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maxha\\source\\repos\\XUnitTesting\\API-Assignment1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\max95\\NuGet.Config",
-          "C:\\Users\\max95\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maxha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "https://api.nuget.optimizely.com/v3/index.json": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.optimizely.com/feed/packages.svc/": {}
         },
         "frameworks": {
           "net6.0": {
@@ -79,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

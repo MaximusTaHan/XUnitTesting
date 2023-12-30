@@ -1,10 +1,12 @@
 using API_Assignment1.Data;
+using API_Assignment1.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<INoteRepository, NoteRepository>();
 builder.Services.AddDbContext<NotesContext>(
     options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();
