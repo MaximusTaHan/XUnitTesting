@@ -70,5 +70,13 @@ namespace API_Assignment1.Controllers
 
             return Ok();
         }
+
+        public string ReverseText(Note note)
+        {
+            var charArray = note.Text.ToCharArray();
+            Array.Reverse(charArray);
+
+            return new string(charArray);
+        }
     }
 }

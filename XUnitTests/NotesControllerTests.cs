@@ -83,5 +83,19 @@ namespace XUnitTests
             // Assert
             Assert.Equal(empty, result.Text);
         }
+
+        [Fact]
+        public void ReverseText_ShouldReverseText_WhenNoteIsPosted()
+        {
+            // Arrange
+            string expected = "kliM";
+            Note note = new() { Id = 1, IsDone = true, Text = "Milk" };
+
+            // Act
+            string result = _sut.ReverseText(note);
+
+            // Assert
+            Assert.Equal(expected, result);
+        }
     }
 }
